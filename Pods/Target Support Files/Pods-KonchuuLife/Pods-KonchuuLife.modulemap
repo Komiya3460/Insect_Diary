@@ -1,0 +1,6 @@
+framework module Pods_KonchuuLife {
+  umbrella header "Pods-KonchuuLife-umbrella.h"
+
+  export *
+  module * { export * }
+}

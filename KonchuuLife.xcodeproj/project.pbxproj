@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A04A60CF2CAC323A00DB70CF /* MyInsectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */; };
+		A04A60D22CAD85D800DB70CF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D12CAD85D800DB70CF /* CalendarView.swift */; };
+		A04A60D52CAD86AF00DB70CF /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D42CAD86AF00DB70CF /* NoticeView.swift */; };
+		A04A60D82CAD86FD00DB70CF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D72CAD86FD00DB70CF /* InfoView.swift */; };
 		A09786CD2C9FEB0A00B972F3 /* KonchuuLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786CC2C9FEB0A00B972F3 /* KonchuuLifeApp.swift */; };
 		A09786CF2C9FEB0A00B972F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786CE2C9FEB0A00B972F3 /* ContentView.swift */; };
 		A09786D12C9FEB1000B972F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09786D02C9FEB1000B972F3 /* Assets.xcassets */; };
 		A09786D42C9FEB1000B972F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09786D32C9FEB1000B972F3 /* Preview Assets.xcassets */; };
+		A09786DC2C9FEB7D00B972F3 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786DB2C9FEB7D00B972F3 /* IntroductionView.swift */; };
+		A09786DE2C9FF12100B972F3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786DD2C9FF12100B972F3 /* MainTabView.swift */; };
+		A09786E12C9FFA4800B972F3 /* TermsOfUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786E02C9FFA4800B972F3 /* TermsOfUseView.swift */; };
+		C778B1A39CA100D5F2064EB1 /* Pods_KonchuuLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF42F3F6AD615F510851DA45 /* Pods_KonchuuLife.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7AAD9A0E09E309625D2ED53F /* Pods-KonchuuLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonchuuLife.release.xcconfig"; path = "Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife.release.xcconfig"; sourceTree = "<group>"; };
+		A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsectView.swift; sourceTree = "<group>"; };
+		A04A60D12CAD85D800DB70CF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A04A60D42CAD86AF00DB70CF /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
+		A04A60D72CAD86FD00DB70CF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		A09786C92C9FEB0A00B972F3 /* KonchuuLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonchuuLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09786CC2C9FEB0A00B972F3 /* KonchuuLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonchuuLifeApp.swift; sourceTree = "<group>"; };
 		A09786CE2C9FEB0A00B972F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A09786D02C9FEB1000B972F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A09786D32C9FEB1000B972F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A09786DB2C9FEB7D00B972F3 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		A09786DD2C9FF12100B972F3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A09786E02C9FFA4800B972F3 /* TermsOfUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseView.swift; sourceTree = "<group>"; };
+		A133E3EC74466B920D6410C6 /* Pods-KonchuuLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonchuuLife.debug.xcconfig"; path = "Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife.debug.xcconfig"; sourceTree = "<group>"; };
+		AF42F3F6AD615F510851DA45 /* Pods_KonchuuLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KonchuuLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +44,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C778B1A39CA100D5F2064EB1 /* Pods_KonchuuLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67567235B84933F051473331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF42F3F6AD615F510851DA45 /* Pods_KonchuuLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04A60CD2CAC320C00DB70CF /* Insect */ = {
+			isa = PBXGroup;
+			children = (
+				A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */,
+			);
+			path = Insect;
+			sourceTree = "<group>";
+		};
+		A04A60D02CAD85B100DB70CF /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A04A60D12CAD85D800DB70CF /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		A04A60D32CAD869700DB70CF /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				A04A60D42CAD86AF00DB70CF /* NoticeView.swift */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		A04A60D62CAD86E900DB70CF /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				A04A60D72CAD86FD00DB70CF /* InfoView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
 		A09786C02C9FEB0A00B972F3 = {
 			isa = PBXGroup;
 			children = (
 				A09786CB2C9FEB0A00B972F3 /* KonchuuLife */,
 				A09786CA2C9FEB0A00B972F3 /* Products */,
+				F643DA0CEBBAC293243FD0A6 /* Pods */,
+				67567235B84933F051473331 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +112,11 @@
 		A09786CB2C9FEB0A00B972F3 /* KonchuuLife */ = {
 			isa = PBXGroup;
 			children = (
+				A04A60D62CAD86E900DB70CF /* Info */,
+				A04A60D32CAD869700DB70CF /* Notice */,
+				A04A60D02CAD85B100DB70CF /* Calendar */,
+				A04A60CD2CAC320C00DB70CF /* Insect */,
+				A09786DA2C9FEB4C00B972F3 /* Intoroduction */,
 				A09786CC2C9FEB0A00B972F3 /* KonchuuLifeApp.swift */,
 				A09786CE2C9FEB0A00B972F3 /* ContentView.swift */,
 				A09786D02C9FEB1000B972F3 /* Assets.xcassets */,
@@ -67,6 +133,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A09786DA2C9FEB4C00B972F3 /* Intoroduction */ = {
+			isa = PBXGroup;
+			children = (
+				A09786DB2C9FEB7D00B972F3 /* IntroductionView.swift */,
+				A09786DD2C9FF12100B972F3 /* MainTabView.swift */,
+				A09786E02C9FFA4800B972F3 /* TermsOfUseView.swift */,
+			);
+			path = Intoroduction;
+			sourceTree = "<group>";
+		};
+		F643DA0CEBBAC293243FD0A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A133E3EC74466B920D6410C6 /* Pods-KonchuuLife.debug.xcconfig */,
+				7AAD9A0E09E309625D2ED53F /* Pods-KonchuuLife.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A09786D72C9FEB1000B972F3 /* Build configuration list for PBXNativeTarget "KonchuuLife" */;
 			buildPhases = (
+				EC15EFF3C75C6CDF58ABE381 /* [CP] Check Pods Manifest.lock */,
 				A09786C52C9FEB0A00B972F3 /* Sources */,
 				A09786C62C9FEB0A00B972F3 /* Frameworks */,
 				A09786C72C9FEB0A00B972F3 /* Resources */,
+				5131C4B6E3CCF870A6824D96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +219,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5131C4B6E3CCF870A6824D96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC15EFF3C75C6CDF58ABE381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KonchuuLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A09786C52C9FEB0A00B972F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04A60D52CAD86AF00DB70CF /* NoticeView.swift in Sources */,
+				A04A60CF2CAC323A00DB70CF /* MyInsectView.swift in Sources */,
+				A04A60D22CAD85D800DB70CF /* CalendarView.swift in Sources */,
+				A09786E12C9FFA4800B972F3 /* TermsOfUseView.swift in Sources */,
+				A09786DC2C9FEB7D00B972F3 /* IntroductionView.swift in Sources */,
 				A09786CF2C9FEB0A00B972F3 /* ContentView.swift in Sources */,
 				A09786CD2C9FEB0A00B972F3 /* KonchuuLifeApp.swift in Sources */,
+				A04A60D82CAD86FD00DB70CF /* InfoView.swift in Sources */,
+				A09786DE2C9FF12100B972F3 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +402,7 @@
 		};
 		A09786D82C9FEB1000B972F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A133E3EC74466B920D6410C6 /* Pods-KonchuuLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,12 +411,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KonchuuLife/Preview Content\"";
 				DEVELOPMENT_TEAM = XCAHYBH783;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +434,7 @@
 		};
 		A09786D92C9FEB1000B972F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAD9A0E09E309625D2ED53F /* Pods-KonchuuLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,12 +443,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KonchuuLife/Preview Content\"";
 				DEVELOPMENT_TEAM = XCAHYBH783;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
