@@ -73,7 +73,8 @@ struct MainTabView: View {
                 .accentColor(Color.indigo)
             }
             .navigationTitle(navigationTitle) // ナビゲーションタイトルを設定
-            .navigationBarHidden(false) // ナビゲーションバーを表示
+            .navigationBarHidden(false)
+            .navigationBarBackButtonHidden(true)
         }
     }
 }

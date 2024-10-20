@@ -1,8 +1,10 @@
 import SwiftUI
 
 struct IntroductionView: View {
-    @State private var navigateToMainTab = false
     @State private var navigateToTermsOfUse = false
+    @State private var navigateToMainTab = false
+    @State private var navigateToSignup = false
+    @ObservedObject var viewModel = SignUpViewModel()  // SignUpViewModelを共有
     
     var body: some View {
         NavigationStack {
@@ -14,7 +16,7 @@ struct IntroductionView: View {
                     .padding(.top, 50)
 
                 Button(action: {
-                    navigateToMainTab = true
+                    navigateToSignup = true
                 }) {
                     Text("同意する")
                         .frame(width: 100, height: 40)
@@ -38,19 +40,17 @@ struct IntroductionView: View {
                 Spacer()
             }
             .padding(.top, 50)
-            .navigationBarHidden(true) 
-            .navigationDestination(isPresented: $navigateToMainTab) {
-                MainTabView()
-                    .navigationBarHidden(false)
-                    .navigationBarBackButtonHidden(true)
-            }
             .navigationDestination(isPresented: $navigateToTermsOfUse) {
                 TermsOfUseView()
+                    .navigationBarHidden(true)
+            }
+            .navigationDestination(isPresented: $navigateToSignup) {
+                SignUpView(viewModel: viewModel)  // viewModelを渡す
+            }
+            .navigationDestination(isPresented: $navigateToMainTab) {
+                MainTabView()
             }
         }
     }
-}
+    }
 
-#Preview {
-    IntroductionView()
-}
