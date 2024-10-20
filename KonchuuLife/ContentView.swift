@@ -7,14 +7,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = SignUpViewModel()
+    
     var body: some View {
         NavigationStack {
-            IntroductionView()
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        EmptyView() // ナビゲーションバーを空にする
-                    }
-                }
+            if viewModel.isSignedUp {
+                MainTabView()
+            } else {
+                IntroductionView(viewModel: viewModel)  // viewModelを渡す
+            }
+        }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                EmptyView() // ナビゲーションバーを空にする
+            }
         }
     }
 }

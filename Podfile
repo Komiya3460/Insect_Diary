@@ -3,6 +3,6 @@ platform :ios, '16.0'
 
 target 'KonchuuLife' do
   use_frameworks!
-
-  pod 'FSCalendar', '~> 2.0' 
+  pod 'FSCalendar', '~> 2.0'
+  pod 'Firebase/Auth', '~> 10.0' 
 end

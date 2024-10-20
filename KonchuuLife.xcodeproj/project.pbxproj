@@ -11,6 +11,7 @@
 		A04A60D22CAD85D800DB70CF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D12CAD85D800DB70CF /* CalendarView.swift */; };
 		A04A60D52CAD86AF00DB70CF /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D42CAD86AF00DB70CF /* NoticeView.swift */; };
 		A04A60D82CAD86FD00DB70CF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D72CAD86FD00DB70CF /* InfoView.swift */; };
+		A079F9E72CBE8C6F002D315D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A079F9E62CBE8C6F002D315D /* SignUpView.swift */; };
 		A09786CD2C9FEB0A00B972F3 /* KonchuuLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786CC2C9FEB0A00B972F3 /* KonchuuLifeApp.swift */; };
 		A09786CF2C9FEB0A00B972F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786CE2C9FEB0A00B972F3 /* ContentView.swift */; };
 		A09786D12C9FEB1000B972F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09786D02C9FEB1000B972F3 /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 		A09786DC2C9FEB7D00B972F3 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786DB2C9FEB7D00B972F3 /* IntroductionView.swift */; };
 		A09786DE2C9FF12100B972F3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786DD2C9FF12100B972F3 /* MainTabView.swift */; };
 		A09786E12C9FFA4800B972F3 /* TermsOfUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786E02C9FFA4800B972F3 /* TermsOfUseView.swift */; };
+		A0F22A072CBFCA46004A3537 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0F22A062CBFCA46004A3537 /* GoogleService-Info.plist */; };
+		A0F22A0C2CBFD4C7004A3537 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F22A0B2CBFD4C7004A3537 /* SignUpViewModel.swift */; };
 		C778B1A39CA100D5F2064EB1 /* Pods_KonchuuLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF42F3F6AD615F510851DA45 /* Pods_KonchuuLife.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,7 @@
 		A04A60D12CAD85D800DB70CF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A04A60D42CAD86AF00DB70CF /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
 		A04A60D72CAD86FD00DB70CF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A079F9E62CBE8C6F002D315D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		A09786C92C9FEB0A00B972F3 /* KonchuuLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonchuuLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09786CC2C9FEB0A00B972F3 /* KonchuuLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonchuuLifeApp.swift; sourceTree = "<group>"; };
 		A09786CE2C9FEB0A00B972F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +39,8 @@
 		A09786DB2C9FEB7D00B972F3 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		A09786DD2C9FF12100B972F3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A09786E02C9FFA4800B972F3 /* TermsOfUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseView.swift; sourceTree = "<group>"; };
+		A0F22A062CBFCA46004A3537 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0F22A0B2CBFD4C7004A3537 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		A133E3EC74466B920D6410C6 /* Pods-KonchuuLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonchuuLife.debug.xcconfig"; path = "Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife.debug.xcconfig"; sourceTree = "<group>"; };
 		AF42F3F6AD615F510851DA45 /* Pods_KonchuuLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KonchuuLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +100,7 @@
 		A09786C02C9FEB0A00B972F3 = {
 			isa = PBXGroup;
 			children = (
+				A0F22A062CBFCA46004A3537 /* GoogleService-Info.plist */,
 				A09786CB2C9FEB0A00B972F3 /* KonchuuLife */,
 				A09786CA2C9FEB0A00B972F3 /* Products */,
 				F643DA0CEBBAC293243FD0A6 /* Pods */,
@@ -139,8 +146,18 @@
 				A09786DB2C9FEB7D00B972F3 /* IntroductionView.swift */,
 				A09786DD2C9FF12100B972F3 /* MainTabView.swift */,
 				A09786E02C9FFA4800B972F3 /* TermsOfUseView.swift */,
+				A0F22A0A2CBFD48E004A3537 /* SignUp */,
 			);
 			path = Intoroduction;
+			sourceTree = "<group>";
+		};
+		A0F22A0A2CBFD48E004A3537 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				A079F9E62CBE8C6F002D315D /* SignUpView.swift */,
+				A0F22A0B2CBFD4C7004A3537 /* SignUpViewModel.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		F643DA0CEBBAC293243FD0A6 /* Pods */ = {
@@ -214,6 +231,7 @@
 			files = (
 				A09786D42C9FEB1000B972F3 /* Preview Assets.xcassets in Resources */,
 				A09786D12C9FEB1000B972F3 /* Assets.xcassets in Resources */,
+				A0F22A072CBFCA46004A3537 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +292,8 @@
 				A09786CF2C9FEB0A00B972F3 /* ContentView.swift in Sources */,
 				A09786CD2C9FEB0A00B972F3 /* KonchuuLifeApp.swift in Sources */,
 				A04A60D82CAD86FD00DB70CF /* InfoView.swift in Sources */,
+				A079F9E72CBE8C6F002D315D /* SignUpView.swift in Sources */,
+				A0F22A0C2CBFD4C7004A3537 /* SignUpViewModel.swift in Sources */,
 				A09786DE2C9FF12100B972F3 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
