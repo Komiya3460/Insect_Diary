@@ -1,84 +1,89 @@
-//
-//  MainTabView.swift
-//  KonchuuLife
-//
-//  Created by 越智三四郎 on 2024/09/22.
-//
-
 import SwiftUI
 
 struct MainTabView: View {
-    @State var navigationTitle = "My昆虫"
+    @State private var navigationTitle = "My昆虫"
     
     init() {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = UIColor(red: 173/255, green: 246/255, blue: 220/255, alpha: 1.0)
+        appearance.backgroundColor = UIColor(red: 200/255, green: 230/255, blue: 240/255, alpha: 1.0)
         appearance.titleTextAttributes = [
-            .font: UIFont.systemFont(ofSize: 10, weight: .medium),
+            .font: UIFont.systemFont(ofSize: 20, weight: .medium),
             .foregroundColor: UIColor.black
         ]
         UINavigationBar.appearance().standardAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        
+        let tabbarAppearance = UITabBarAppearance()
+        tabbarAppearance.configureWithOpaqueBackground()
+        let selectedColor = UIColor(red: 0/255, green: 100/255, blue: 100/255, alpha: 1.0)
+        tabbarAppearance.stackedLayoutAppearance.selected.iconColor = selectedColor
+        tabbarAppearance.stackedLayoutAppearance.selected.titleTextAttributes = [.foregroundColor: selectedColor]
+        
+        let normalColor = UIColor(red: 150/255, green: 150/255, blue: 150/255, alpha: 1.0)
+        tabbarAppearance.stackedLayoutAppearance.normal.iconColor = normalColor
+        tabbarAppearance.stackedLayoutAppearance.normal.titleTextAttributes = [.foregroundColor: normalColor]
+        
+        UITabBar.appearance().standardAppearance = tabbarAppearance
+        if #available(iOS 15.0, *) {
+            UITabBar.appearance().scrollEdgeAppearance = tabbarAppearance
+        }
     }
     
     var body: some View {
-            VStack {
-                TabView {
-                    MyInsectView()
-                        .tabItem {
-                            VStack {
-                                Image(systemName: "house.fill")
-                                Text("My昆虫")
-                            }
+        NavigationStack {
+            TabView {
+                MyInsectView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "house.fill")
+                            Text("My昆虫")
                         }
-                        .tag(1)
-                        .onAppear {
-                            navigationTitle = "My昆虫"
-                        }
-                    CalendarContentView()
-                        .tabItem {
-                            VStack {
-                                Image(systemName: "heart.fill")
-                                Text("カレンダー")
-                            }
-                        }
-                        .tag(2)
-                        .onAppear {
-                            navigationTitle = "カレンダー"
-                        }
-                    NoticeView()
-                        .tabItem {
-                            VStack {
-                                Image(systemName: "gear")
-                                Text("お知らせ")
-                            }
-                        }
-                        .tag(3)
-                        .onAppear {
-                            navigationTitle = "お知らせ"
-                        }
-                    InfoVeiw()
-                        .tabItem {
-                            VStack {
-                                Image(systemName: "heart.fill")
-                                Text("Info")
-                            }
-                        }
-                        .tag(4)
-                        .onAppear {
-                            navigationTitle = "Info"
-                        }
+                    }
+                    .tag(1)
+                    .onAppear {
+                        navigationTitle = "My昆虫"
+                    }
                 
-                .accentColor(Color.indigo)
+                CalendarContentView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "heart.fill")
+                            Text("カレンダー")
+                        }
+                    }
+                    .tag(2)
+                    .onAppear {
+                        navigationTitle = "カレンダー"
+                    }
+                
+                NoticeView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "gear")
+                            Text("お知らせ")
+                        }
+                    }
+                    .tag(3)
+                    .onAppear {
+                        navigationTitle = "お知らせ"
+                    }
+                
+                InfoView() // 修正: スペルミスを修正
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "info.circle") // 適切なアイコンを使用
+                            Text("Info")
+                        }
+                    }
+                    .tag(4)
+                    .onAppear {
+                        navigationTitle = "Info"
+                    }
             }
-            .navigationTitle(navigationTitle) // ナビゲーションタイトルを設定
-            .navigationBarHidden(false)
-            .navigationBarBackButtonHidden(true)
+            .accentColor(Color.indigo)
+            .navigationTitle(navigationTitle)
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
-}
-
-#Preview {
-    MainTabView()
 }

@@ -9,11 +9,9 @@ import SwiftUI
 
 struct MyInsectView: View {
     var body: some View {
-        NavigationStack {
             VStack {
                 Text("ファー")
             }
-        }
     }
 }
 #Preview {
