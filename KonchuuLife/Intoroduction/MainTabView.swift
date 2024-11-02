@@ -2,6 +2,7 @@ import SwiftUI
 
 struct MainTabView: View {
     @State private var navigationTitle = "My昆虫"
+    @StateObject private var viewModel = MyInsectViewModel()
     
     init() {
         let appearance = UINavigationBarAppearance()
@@ -33,7 +34,7 @@ struct MainTabView: View {
     var body: some View {
         NavigationStack {
             TabView {
-                MyInsectView()
+                MyInsectView(viewModel: viewModel)
                     .tabItem {
                         VStack {
                             Image(systemName: "house.fill")

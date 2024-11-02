@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A023FC2D2CD5F6E00073B469 /* MyInsectViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC2C2CD5F6E00073B469 /* MyInsectViewmodel.swift */; };
+		A023FC302CD5F78C0073B469 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC2F2CD5F78C0073B469 /* UserDefaultsService.swift */; };
+		A023FC322CD5F87A0073B469 /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC312CD5F87A0073B469 /* Insect.swift */; };
+		A023FC352CD5FEE70073B469 /* NewAddInsectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC342CD5FEE70073B469 /* NewAddInsectView.swift */; };
+		A023FC372CD601E30073B469 /* InsecDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC362CD601E30073B469 /* InsecDetailsView.swift */; };
+		A023FC3A2CD60D6D0073B469 /* NewAddInsectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC392CD60D6D0073B469 /* NewAddInsectViewModel.swift */; };
+		A023FC3C2CD60E160073B469 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC3B2CD60E160073B469 /* ImagePickerView.swift */; };
 		A04A60CF2CAC323A00DB70CF /* MyInsectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */; };
 		A04A60D22CAD85D800DB70CF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D12CAD85D800DB70CF /* CalendarView.swift */; };
 		A04A60D52CAD86AF00DB70CF /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D42CAD86AF00DB70CF /* NoticeView.swift */; };
@@ -26,6 +33,13 @@
 
 /* Begin PBXFileReference section */
 		7AAD9A0E09E309625D2ED53F /* Pods-KonchuuLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonchuuLife.release.xcconfig"; path = "Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife.release.xcconfig"; sourceTree = "<group>"; };
+		A023FC2C2CD5F6E00073B469 /* MyInsectViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsectViewmodel.swift; sourceTree = "<group>"; };
+		A023FC2F2CD5F78C0073B469 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
+		A023FC312CD5F87A0073B469 /* Insect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect.swift; sourceTree = "<group>"; };
+		A023FC342CD5FEE70073B469 /* NewAddInsectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddInsectView.swift; sourceTree = "<group>"; };
+		A023FC362CD601E30073B469 /* InsecDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsecDetailsView.swift; sourceTree = "<group>"; };
+		A023FC392CD60D6D0073B469 /* NewAddInsectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddInsectViewModel.swift; sourceTree = "<group>"; };
+		A023FC3B2CD60E160073B469 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsectView.swift; sourceTree = "<group>"; };
 		A04A60D12CAD85D800DB70CF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A04A60D42CAD86AF00DB70CF /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
@@ -65,10 +79,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A023FC2E2CD5F76D0073B469 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A023FC2F2CD5F78C0073B469 /* UserDefaultsService.swift */,
+				A023FC312CD5F87A0073B469 /* Insect.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A023FC382CD60D3F0073B469 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A023FC2C2CD5F6E00073B469 /* MyInsectViewmodel.swift */,
+				A023FC392CD60D6D0073B469 /* NewAddInsectViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		A04A60CD2CAC320C00DB70CF /* Insect */ = {
 			isa = PBXGroup;
 			children = (
+				A023FC382CD60D3F0073B469 /* ViewModel */,
 				A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */,
+				A023FC342CD5FEE70073B469 /* NewAddInsectView.swift */,
+				A023FC362CD601E30073B469 /* InsecDetailsView.swift */,
+				A023FC3B2CD60E160073B469 /* ImagePickerView.swift */,
 			);
 			path = Insect;
 			sourceTree = "<group>";
@@ -119,6 +155,7 @@
 		A09786CB2C9FEB0A00B972F3 /* KonchuuLife */ = {
 			isa = PBXGroup;
 			children = (
+				A023FC2E2CD5F76D0073B469 /* Data */,
 				A04A60D62CAD86E900DB70CF /* Info */,
 				A04A60D32CAD869700DB70CF /* Notice */,
 				A04A60D02CAD85B100DB70CF /* Calendar */,
@@ -286,15 +323,22 @@
 			files = (
 				A04A60D52CAD86AF00DB70CF /* NoticeView.swift in Sources */,
 				A04A60CF2CAC323A00DB70CF /* MyInsectView.swift in Sources */,
+				A023FC2D2CD5F6E00073B469 /* MyInsectViewmodel.swift in Sources */,
 				A04A60D22CAD85D800DB70CF /* CalendarView.swift in Sources */,
+				A023FC3C2CD60E160073B469 /* ImagePickerView.swift in Sources */,
+				A023FC372CD601E30073B469 /* InsecDetailsView.swift in Sources */,
 				A09786E12C9FFA4800B972F3 /* TermsOfUseView.swift in Sources */,
 				A09786DC2C9FEB7D00B972F3 /* IntroductionView.swift in Sources */,
 				A09786CF2C9FEB0A00B972F3 /* ContentView.swift in Sources */,
 				A09786CD2C9FEB0A00B972F3 /* KonchuuLifeApp.swift in Sources */,
+				A023FC352CD5FEE70073B469 /* NewAddInsectView.swift in Sources */,
 				A04A60D82CAD86FD00DB70CF /* InfoView.swift in Sources */,
 				A079F9E72CBE8C6F002D315D /* SignUpView.swift in Sources */,
 				A0F22A0C2CBFD4C7004A3537 /* SignUpViewModel.swift in Sources */,
+				A023FC322CD5F87A0073B469 /* Insect.swift in Sources */,
 				A09786DE2C9FF12100B972F3 /* MainTabView.swift in Sources */,
+				A023FC302CD5F78C0073B469 /* UserDefaultsService.swift in Sources */,
+				A023FC3A2CD60D6D0073B469 /* NewAddInsectViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
