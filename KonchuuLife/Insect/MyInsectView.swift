@@ -29,7 +29,7 @@ struct MyInsectView: View {
                     } else {
                         ScrollView {
                             ForEach($myInsectViewModel.insect, id: \.id) { $insect in
-                                NavigationLink(destination: InsecDetailsView(item: insect.name, insect: insect)) {
+                                NavigationLink(destination: InsectDetailsView(item: insect.name, insect: insect)) {
                                     HStack {
                                         if let imageData = insect.imageData,
                                            let image = UIImage(data: imageData) {
@@ -65,7 +65,6 @@ struct MyInsectView: View {
                             }
                         }
                     }
-                   
                 }
                 VStack {
                     Spacer()

@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A023FC2D2CD5F6E00073B469 /* MyInsectViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC2C2CD5F6E00073B469 /* MyInsectViewmodel.swift */; };
+		18872053FD9961B1396FBD0F /* Pods_KonchuuLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6EAC5A46BFD1A457E359DF /* Pods_KonchuuLife.framework */; };
+		A023FC2D2CD5F6E00073B469 /* MyInsectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC2C2CD5F6E00073B469 /* MyInsectViewModel.swift */; };
 		A023FC302CD5F78C0073B469 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC2F2CD5F78C0073B469 /* UserDefaultsService.swift */; };
 		A023FC322CD5F87A0073B469 /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC312CD5F87A0073B469 /* Insect.swift */; };
 		A023FC352CD5FEE70073B469 /* NewAddInsectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC342CD5FEE70073B469 /* NewAddInsectView.swift */; };
-		A023FC372CD601E30073B469 /* InsecDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC362CD601E30073B469 /* InsecDetailsView.swift */; };
+		A023FC372CD601E30073B469 /* InsectDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC362CD601E30073B469 /* InsectDetailsView.swift */; };
 		A023FC3A2CD60D6D0073B469 /* NewAddInsectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC392CD60D6D0073B469 /* NewAddInsectViewModel.swift */; };
 		A023FC3C2CD60E160073B469 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC3B2CD60E160073B469 /* ImagePickerView.swift */; };
+		A023FC3E2CD616900073B469 /* InsectTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023FC3D2CD616900073B469 /* InsectTweetViewModel.swift */; };
+		A03BA4072CE09B81007154F5 /* TweetPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03BA4062CE09B81007154F5 /* TweetPostView.swift */; };
 		A04A60CF2CAC323A00DB70CF /* MyInsectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */; };
-		A04A60D22CAD85D800DB70CF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D12CAD85D800DB70CF /* CalendarView.swift */; };
+		A04A60D22CAD85D800DB70CF /* InsectTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D12CAD85D800DB70CF /* InsectTweetView.swift */; };
 		A04A60D52CAD86AF00DB70CF /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D42CAD86AF00DB70CF /* NoticeView.swift */; };
 		A04A60D82CAD86FD00DB70CF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A60D72CAD86FD00DB70CF /* InfoView.swift */; };
 		A079F9E72CBE8C6F002D315D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A079F9E62CBE8C6F002D315D /* SignUpView.swift */; };
@@ -28,20 +31,20 @@
 		A09786E12C9FFA4800B972F3 /* TermsOfUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09786E02C9FFA4800B972F3 /* TermsOfUseView.swift */; };
 		A0F22A072CBFCA46004A3537 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0F22A062CBFCA46004A3537 /* GoogleService-Info.plist */; };
 		A0F22A0C2CBFD4C7004A3537 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F22A0B2CBFD4C7004A3537 /* SignUpViewModel.swift */; };
-		C778B1A39CA100D5F2064EB1 /* Pods_KonchuuLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF42F3F6AD615F510851DA45 /* Pods_KonchuuLife.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7AAD9A0E09E309625D2ED53F /* Pods-KonchuuLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonchuuLife.release.xcconfig"; path = "Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife.release.xcconfig"; sourceTree = "<group>"; };
-		A023FC2C2CD5F6E00073B469 /* MyInsectViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsectViewmodel.swift; sourceTree = "<group>"; };
+		A023FC2C2CD5F6E00073B469 /* MyInsectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsectViewModel.swift; sourceTree = "<group>"; };
 		A023FC2F2CD5F78C0073B469 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 		A023FC312CD5F87A0073B469 /* Insect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect.swift; sourceTree = "<group>"; };
 		A023FC342CD5FEE70073B469 /* NewAddInsectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddInsectView.swift; sourceTree = "<group>"; };
-		A023FC362CD601E30073B469 /* InsecDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsecDetailsView.swift; sourceTree = "<group>"; };
+		A023FC362CD601E30073B469 /* InsectDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectDetailsView.swift; sourceTree = "<group>"; };
 		A023FC392CD60D6D0073B469 /* NewAddInsectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddInsectViewModel.swift; sourceTree = "<group>"; };
 		A023FC3B2CD60E160073B469 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		A023FC3D2CD616900073B469 /* InsectTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectTweetViewModel.swift; sourceTree = "<group>"; };
+		A03BA4062CE09B81007154F5 /* TweetPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPostView.swift; sourceTree = "<group>"; };
 		A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsectView.swift; sourceTree = "<group>"; };
-		A04A60D12CAD85D800DB70CF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A04A60D12CAD85D800DB70CF /* InsectTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectTweetView.swift; sourceTree = "<group>"; };
 		A04A60D42CAD86AF00DB70CF /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
 		A04A60D72CAD86FD00DB70CF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		A079F9E62CBE8C6F002D315D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
@@ -55,8 +58,9 @@
 		A09786E02C9FFA4800B972F3 /* TermsOfUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseView.swift; sourceTree = "<group>"; };
 		A0F22A062CBFCA46004A3537 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A0F22A0B2CBFD4C7004A3537 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
-		A133E3EC74466B920D6410C6 /* Pods-KonchuuLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonchuuLife.debug.xcconfig"; path = "Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife.debug.xcconfig"; sourceTree = "<group>"; };
-		AF42F3F6AD615F510851DA45 /* Pods_KonchuuLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KonchuuLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94C2C26CD20C6D7A9EEA355 /* Pods-KonchuuLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonchuuLife.release.xcconfig"; path = "Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife.release.xcconfig"; sourceTree = "<group>"; };
+		ADFDCB35E5ADAA5DD84F553B /* Pods-KonchuuLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonchuuLife.debug.xcconfig"; path = "Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6EAC5A46BFD1A457E359DF /* Pods_KonchuuLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KonchuuLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,17 +68,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C778B1A39CA100D5F2064EB1 /* Pods_KonchuuLife.framework in Frameworks */,
+				18872053FD9961B1396FBD0F /* Pods_KonchuuLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67567235B84933F051473331 /* Frameworks */ = {
+		2C62BCBD5FF43E8C7A284DA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF42F3F6AD615F510851DA45 /* Pods_KonchuuLife.framework */,
+				BC6EAC5A46BFD1A457E359DF /* Pods_KonchuuLife.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,7 +95,7 @@
 		A023FC382CD60D3F0073B469 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A023FC2C2CD5F6E00073B469 /* MyInsectViewmodel.swift */,
+				A023FC2C2CD5F6E00073B469 /* MyInsectViewModel.swift */,
 				A023FC392CD60D6D0073B469 /* NewAddInsectViewModel.swift */,
 			);
 			path = ViewModel;
@@ -103,18 +107,20 @@
 				A023FC382CD60D3F0073B469 /* ViewModel */,
 				A04A60CE2CAC323A00DB70CF /* MyInsectView.swift */,
 				A023FC342CD5FEE70073B469 /* NewAddInsectView.swift */,
-				A023FC362CD601E30073B469 /* InsecDetailsView.swift */,
+				A023FC362CD601E30073B469 /* InsectDetailsView.swift */,
 				A023FC3B2CD60E160073B469 /* ImagePickerView.swift */,
 			);
 			path = Insect;
 			sourceTree = "<group>";
 		};
-		A04A60D02CAD85B100DB70CF /* Calendar */ = {
+		A04A60D02CAD85B100DB70CF /* tweet */ = {
 			isa = PBXGroup;
 			children = (
-				A04A60D12CAD85D800DB70CF /* CalendarView.swift */,
+				A04A60D12CAD85D800DB70CF /* InsectTweetView.swift */,
+				A023FC3D2CD616900073B469 /* InsectTweetViewModel.swift */,
+				A03BA4062CE09B81007154F5 /* TweetPostView.swift */,
 			);
-			path = Calendar;
+			path = tweet;
 			sourceTree = "<group>";
 		};
 		A04A60D32CAD869700DB70CF /* Notice */ = {
@@ -140,7 +146,7 @@
 				A09786CB2C9FEB0A00B972F3 /* KonchuuLife */,
 				A09786CA2C9FEB0A00B972F3 /* Products */,
 				F643DA0CEBBAC293243FD0A6 /* Pods */,
-				67567235B84933F051473331 /* Frameworks */,
+				2C62BCBD5FF43E8C7A284DA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,7 +164,7 @@
 				A023FC2E2CD5F76D0073B469 /* Data */,
 				A04A60D62CAD86E900DB70CF /* Info */,
 				A04A60D32CAD869700DB70CF /* Notice */,
-				A04A60D02CAD85B100DB70CF /* Calendar */,
+				A04A60D02CAD85B100DB70CF /* tweet */,
 				A04A60CD2CAC320C00DB70CF /* Insect */,
 				A09786DA2C9FEB4C00B972F3 /* Intoroduction */,
 				A09786CC2C9FEB0A00B972F3 /* KonchuuLifeApp.swift */,
@@ -200,8 +206,8 @@
 		F643DA0CEBBAC293243FD0A6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A133E3EC74466B920D6410C6 /* Pods-KonchuuLife.debug.xcconfig */,
-				7AAD9A0E09E309625D2ED53F /* Pods-KonchuuLife.release.xcconfig */,
+				ADFDCB35E5ADAA5DD84F553B /* Pods-KonchuuLife.debug.xcconfig */,
+				A94C2C26CD20C6D7A9EEA355 /* Pods-KonchuuLife.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -213,11 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A09786D72C9FEB1000B972F3 /* Build configuration list for PBXNativeTarget "KonchuuLife" */;
 			buildPhases = (
-				EC15EFF3C75C6CDF58ABE381 /* [CP] Check Pods Manifest.lock */,
+				EC77E971B384865596DB5C29 /* [CP] Check Pods Manifest.lock */,
 				A09786C52C9FEB0A00B972F3 /* Sources */,
 				A09786C62C9FEB0A00B972F3 /* Frameworks */,
 				A09786C72C9FEB0A00B972F3 /* Resources */,
-				5131C4B6E3CCF870A6824D96 /* [CP] Embed Pods Frameworks */,
+				30E049CB492D3DBB5B4DC775 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,7 +281,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5131C4B6E3CCF870A6824D96 /* [CP] Embed Pods Frameworks */ = {
+		30E049CB492D3DBB5B4DC775 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,7 +298,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KonchuuLife/Pods-KonchuuLife-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EC15EFF3C75C6CDF58ABE381 /* [CP] Check Pods Manifest.lock */ = {
+		EC77E971B384865596DB5C29 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,10 +329,10 @@
 			files = (
 				A04A60D52CAD86AF00DB70CF /* NoticeView.swift in Sources */,
 				A04A60CF2CAC323A00DB70CF /* MyInsectView.swift in Sources */,
-				A023FC2D2CD5F6E00073B469 /* MyInsectViewmodel.swift in Sources */,
-				A04A60D22CAD85D800DB70CF /* CalendarView.swift in Sources */,
+				A023FC2D2CD5F6E00073B469 /* MyInsectViewModel.swift in Sources */,
+				A04A60D22CAD85D800DB70CF /* InsectTweetView.swift in Sources */,
 				A023FC3C2CD60E160073B469 /* ImagePickerView.swift in Sources */,
-				A023FC372CD601E30073B469 /* InsecDetailsView.swift in Sources */,
+				A023FC372CD601E30073B469 /* InsectDetailsView.swift in Sources */,
 				A09786E12C9FFA4800B972F3 /* TermsOfUseView.swift in Sources */,
 				A09786DC2C9FEB7D00B972F3 /* IntroductionView.swift in Sources */,
 				A09786CF2C9FEB0A00B972F3 /* ContentView.swift in Sources */,
@@ -334,8 +340,10 @@
 				A023FC352CD5FEE70073B469 /* NewAddInsectView.swift in Sources */,
 				A04A60D82CAD86FD00DB70CF /* InfoView.swift in Sources */,
 				A079F9E72CBE8C6F002D315D /* SignUpView.swift in Sources */,
+				A023FC3E2CD616900073B469 /* InsectTweetViewModel.swift in Sources */,
 				A0F22A0C2CBFD4C7004A3537 /* SignUpViewModel.swift in Sources */,
 				A023FC322CD5F87A0073B469 /* Insect.swift in Sources */,
+				A03BA4072CE09B81007154F5 /* TweetPostView.swift in Sources */,
 				A09786DE2C9FF12100B972F3 /* MainTabView.swift in Sources */,
 				A023FC302CD5F78C0073B469 /* UserDefaultsService.swift in Sources */,
 				A023FC3A2CD60D6D0073B469 /* NewAddInsectViewModel.swift in Sources */,
@@ -466,10 +474,11 @@
 		};
 		A09786D82C9FEB1000B972F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A133E3EC74466B920D6410C6 /* Pods-KonchuuLife.debug.xcconfig */;
+			baseConfigurationReference = ADFDCB35E5ADAA5DD84F553B /* Pods-KonchuuLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KonchuuLife/Preview Content\"";
@@ -498,10 +507,11 @@
 		};
 		A09786D92C9FEB1000B972F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AAD9A0E09E309625D2ED53F /* Pods-KonchuuLife.release.xcconfig */;
+			baseConfigurationReference = A94C2C26CD20C6D7A9EEA355 /* Pods-KonchuuLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KonchuuLife/Preview Content\"";
