@@ -46,16 +46,16 @@ struct MainTabView: View {
                         navigationTitle = "My昆虫"
                     }
                 
-                CalendarContentView()
+                InsectTweetView()
                     .tabItem {
                         VStack {
                             Image(systemName: "heart.fill")
-                            Text("カレンダー")
+                            Text("つぶやき")
                         }
                     }
                     .tag(2)
                     .onAppear {
-                        navigationTitle = "カレンダー"
+                        navigationTitle = "つぶやき"
                     }
                 
                 NoticeView()
@@ -85,6 +85,7 @@ struct MainTabView: View {
             .accentColor(Color.indigo)
             .navigationTitle(navigationTitle)
             .navigationBarTitleDisplayMode(.inline)
+            .navigationBarBackButtonHidden(true)
         }
     }
 }
