@@ -13,11 +13,12 @@ struct MyInsectView: View {
     private let formatter: DateFormatter
     
     init(viewModel: MyInsectViewModel) {
-        self.myInsectViewModel = viewModel
-        formatter = DateFormatter()
-        formatter.dateFormat = "yyyy年MM月dd日(E)"
-        formatter.locale = Locale(identifier: "ja_JP")
-    }
+            self.myInsectViewModel = viewModel
+            self.formatter = DateFormatter()
+            self.formatter.dateFormat = "yyyy年MM月dd日(E)"
+            self.formatter.locale = Locale(identifier: "ja_JP")
+        }
+
     
     var body: some View {
         NavigationStack {
@@ -39,7 +40,7 @@ struct MyInsectView: View {
                                                 .frame(width: 80, height: 80)
                                                 .cornerRadius(10)
                                         } else {
-                                            Image("aquarium_icon")
+                                            Image(systemName: "camera")
                                                 .resizable()
                                                 .scaledToFit()
                                                 .frame(width: 80, height: 80)
@@ -88,9 +89,10 @@ struct MyInsectView: View {
                 }
                 .onAppear {
                     myInsectViewModel.loadUserDefaults()
+                  
                 }
                 .navigationDestination(isPresented: $navigationToAddInsect) {
-                    NewAddInsectView()
+                    NewAddInsectView(viewModel: NewAddInsectViewModel(), myInsectViewModel: myInsectViewModel)
                 }
             }
         }

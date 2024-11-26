@@ -9,6 +9,11 @@ import SwiftUI
 
 struct InfoView: View {
     var body: some View {
-        Text("")
+        VStack {
+            ScrollView {
+                // スクロール可能な内容をここに記述
+                Text("Info Content")
+            }
+        }
     }
 }
