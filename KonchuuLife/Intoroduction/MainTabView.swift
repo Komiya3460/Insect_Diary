@@ -33,6 +33,7 @@ struct MainTabView: View {
     
     var body: some View {
         NavigationStack {
+            VStack {
             TabView {
                 MyInsectView(viewModel: viewModel)
                     .tabItem {
@@ -70,7 +71,7 @@ struct MainTabView: View {
                         navigationTitle = "お知らせ"
                     }
                 
-                InfoView() // 修正: スペルミスを修正
+                InfoView()
                     .tabItem {
                         VStack {
                             Image(systemName: "info.circle") // 適切なアイコンを使用
@@ -83,6 +84,7 @@ struct MainTabView: View {
                     }
             }
             .accentColor(Color.indigo)
+        }
             .navigationTitle(navigationTitle)
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarBackButtonHidden(true)

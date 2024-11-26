@@ -17,12 +17,18 @@ class MyInsectViewModel: ObservableObject {
     func loadUserDefaults() {
         if let savedData = UserDefaultsService.loadInsect() {
             insect = savedData
+            print("昆虫情報をロードできている\(insect)")
         }
     }
-    func addInsect() {
+    func addInsect(name: String, size: String, date: Date, image: UIImage?) {
+        print("name: \(name)")
+           print("size: \(size)")
+           print("date: \(date)")
+           print("image: \(String(describing: image))")
         let imageData = image?.pngData()
         let newInsect = Insect(name: name, size: size, date: date, imageData: imageData)
         insect.append(newInsect)
+        print("昆虫情報: \(insect)")
         UserDefaultsService.saveInsect(insect)
     }
 }

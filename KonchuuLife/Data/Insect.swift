@@ -8,7 +8,7 @@ import UIKit
 
 
 struct Insect: Identifiable, Codable {
-    let id = UUID()
+    var id = UUID()
     var name: String
     var size: String
     var date: Date

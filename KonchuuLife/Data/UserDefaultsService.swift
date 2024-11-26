@@ -17,7 +17,7 @@ final class UserDefaultsService {
     }
 
     static func loadInsect() -> [Insect]? {
-        if let savedData = userDefaults.data(forKey: "insectList"),
+        if let savedData = userDefaults.data(forKey: "InsectList"),
            let decoded = try? JSONDecoder().decode([Insect].self, from: savedData) {
             return decoded
         }
